@@ -11,7 +11,7 @@ public class Main {
 
         SistemaPedidos sistema = new SistemaPedidos();
 
-        FormaPagamento pagamento = new PagamentoPix(); 
+        FormaPagamento pagamento = new PagamentoCartao(); 
 
         double valorFinal = sistema.processarPedido(pedido, pagamento);
 
